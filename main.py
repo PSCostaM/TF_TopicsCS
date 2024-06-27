@@ -163,6 +163,6 @@ def agent_portrayal(agent):
 grid = CanvasGrid(agent_portrayal, 50, 50, 1000, 1000)
 chasing_mode_indicator = ChasingModeIndicator()
 winning_pokemon_indicator = WinningPokemonIndicator()
-server = ModularServer(PokemonWorld, [grid, chasing_mode_indicator, winning_pokemon_indicator], "Pokemon World", {"N": 100})
+server = ModularServer(PokemonWorld, [grid, chasing_mode_indicator, winning_pokemon_indicator], "Pokemon World", {"N": 2500})
 server.port = 8521
 server.launch()
