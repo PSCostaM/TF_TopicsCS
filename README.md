@@ -182,7 +182,16 @@ server.launch()
 
   </ul>
   <li>Pruebas y Ajustes</li>
+  <ul>
+   <li>Pruebas Iniciales: Ejecutar la simulación para identificar errores y áreas de mejora.</li>
+   <li>Ajustes en el Comportamiento de los Agentes: Refinar los métodos de movimiento, combate y búsqueda.</li>
+   <li>Optimización de Rendimiento: Ajustar el número de agentes y la configuración del entorno para asegurar      un rendimiento óptimo.</li>
+  </ul>
   <li>Documentación y Presentación</li>
+  <ul>
+   <li>Documentación del Código: Asegurarse de que cada sección del código esté adecuadamente comentada y documentada.</li>
+<li>Elaboración del Informe en Markdown: Crear un informe detallado siguiendo las indicaciones del profesor y asegurándose de cumplir con la rúbrica de evaluación.</li>
+  </ul>
  </ol>
 </p>
 
