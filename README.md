@@ -51,12 +51,13 @@ Mesa es una librería de Python diseñada específicamente para crear y gestiona
 
 ### Características Principales de Mesa
 
-##### Facilidad de Uso y Flexibilidad
+#### Facilidad de Uso y Flexibilidad
 <p align="justify">
 <ul>
 <li>API Intuitiva: Mesa ofrece una API sencilla e intuitiva que permite a los desarrolladores definir agentes, entornos y reglas de interacción de manera clara y concisa.</li>
 <li>Flexibilidad: Los desarrolladores pueden personalizar el comportamiento de los agentes y el entorno según los requisitos específicos de su simulación.</li>
 </ul>
+
 #### Componentes Clave
 <p>
  <ul>
