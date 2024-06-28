@@ -108,11 +108,14 @@ class Pokemon(Agent):
         else:
             self.move()
         self.fight()
-
    ```
-  
+  <li>Implementación de Métodos de Comportamiento:</li>
+  <ul>
+   <li>Movimiento: Definir cómo los pokemones se mueven en el mundo.</li>
+   <li>Búsqueda de Oponentes: Métodos para localizar otros pokemones.</li>
+   <li>Batalla: Implementar la lógica de combate y determinación del ganador.</li>
   </ul>
-  <li>Implementación de Métodos de Comportamiento</li>
+  </ul>
   <li>Configuración del Entorno (Modelo)</li>
   <li>Visualización y Monitorización</li>
   <li>Pruebas y Ajustes</li>
