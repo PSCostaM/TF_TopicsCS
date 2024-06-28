@@ -21,7 +21,7 @@
 ## Competencia específica del curso
 
 <p align="justify">
- <b>ABET 1</b>: La capacidad de analizar un problema complejo y aplicar principios de computación y otras disciplinas relevantes para identificar soluciones.
+ <strong>ABET 1:</strong> La capacidad de analizar un problema complejo y aplicar principios de computación y otras disciplinas relevantes para identificar soluciones.
 Nivel de logro: 1
 </p>
 
@@ -199,15 +199,15 @@ server.launch()
 
 <p align="justify">
  <ul>
-  <li><b>Eficiencia en la Simulación de Sistemas Complejos:</b>
+  <li><strong>Eficiencia en la Simulación de Sistemas Complejos:</strong>
 La utilización de sistemas multiagentes, como se evidenció en el desarrollo de la simulación de pokemones, permite modelar y simular de manera eficiente sistemas complejos con múltiples entidades autónomas. Cada agente, en este caso un pokemon, actúa de manera independiente pero siguiendo reglas comunes, lo que facilita la observación de dinámicas emergentes y comportamientos colectivos que serían difíciles de predecir con modelos más simplificados.
 </li>
   
-<li><b>Aplicación Práctica de Principios de Inteligencia Artificial:</b>
+<li><strong>Aplicación Práctica de Principios de Inteligencia Artificial:</strong>
 Implementar un sistema multiagentes con la librería Mesa ofrece una plataforma práctica para aplicar y experimentar con conceptos avanzados de inteligencia artificial, como la toma de decisiones autónomas, la interacción basada en reglas y la simulación de entornos distribuidos. Esto no solo refuerza la comprensión teórica de estos principios, sino que también mejora las habilidades técnicas de programación y modelado.
 </li>
 
-<li><b>Beneficios del Trabajo Colaborativo y el Control de Versiones:</b>
+<li><strong>Beneficios del Trabajo Colaborativo y el Control de Versiones:</strong>
 El desarrollo colaborativo de sistemas multiagentes, apoyado por herramientas de control de versiones como GitHub, promueve prácticas de ingeniería de software esenciales, como la gestión de versiones, la revisión de código y la resolución de conflictos. Este enfoque no solo mejora la calidad del software desarrollado, sino que también fomenta habilidades de trabajo en equipo y comunicación efectiva entre los miembros del grupo, preparando a los estudiantes para proyectos de software reales en entornos profesionales.
 </li>
  </ul>
