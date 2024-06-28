@@ -68,7 +68,7 @@ class Pokemon(Agent):
         return None
 
     def find_opponent(self):
-        neighbors = self.model.grid.get_neighbors(self.pos, moore=True, include_center=False, radius=5)
+        neighbors = self.model.grid.get_neighbors(self.pos, moore=True, include_center=False, radius=30)
         for neighbor in neighbors:
             if neighbor.active:
                 return neighbor.pos
