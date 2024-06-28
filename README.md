@@ -42,7 +42,7 @@ El trabajo final consiste en elaborar un sistema multiagentes que permita simula
  El desarrollo de un sistema multi-agents para simular la interacción de pokemones en un mundo abierto es motivador porque permite modelar de manera realista sistemas complejos donde múltiples entidades autónomas interactúan dinámicamente. Esta metodología fomenta la aplicación práctica de principios de inteligencia artificial, algoritmos y estructuras de datos, y técnicas de simulación, además de proporcionar experiencia en el uso de herramientas de control de versiones y trabajo colaborativo. Al enfrentar desafíos como la gestión de grandes volúmenes de datos y la optimización del rendimiento, los estudiantes desarrollan habilidades clave en computer science y adquieren una comprensión profunda de la dinámica de sistemas distribuidos.
 </p>
 
-## Técnica propuesta
+## Marco Teórico
 
 ### La Librería Mesa para Simulaciones Multiagentes
 <p align="justify">
@@ -74,3 +74,28 @@ Mesa es una librería de Python diseñada específicamente para crear y gestiona
 <li>Elementos de Texto: TextElement facilita la adición de indicadores y estadísticas en la interfaz de la simulación.</li>
 </ul>
 </p>
+
+## Desarrollo del Trabajo Final Utilizando Mesa
+
+<p align="justify">
+ <ol>
+  <li>Configuración del Entorno y Preparación</li>
+  <ul>
+   <li>Instalación de Mesa: Instalar la librería Mesa junto con otras dependencias necesarias.
+   
+    ```
+    pip install mesa
+    ```
+    
+   </li>
+   <li>Estructura del Proyecto: Organizar el proyecto en directorios y archivos adecuados, incluyendo scripts para los modelos, agentes y visualización.</li>
+  </ul>
+  <li>Definición de Agentes y Modelos</li>
+  <li>Implementación de Métodos de Comportamiento</li>
+  <li>Configuración del Entorno (Modelo)</li>
+  <li>Visualización y Monitorización</li>
+  <li>Pruebas y Ajustes</li>
+  <li>Documentación y Presentación</li>
+ </ol>
+</p>
+
