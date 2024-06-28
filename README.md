@@ -83,14 +83,35 @@ Mesa es una librería de Python diseñada específicamente para crear y gestiona
   <ul>
    <li>Instalación de Mesa: Instalar la librería Mesa junto con otras dependencias necesarias.
    
-   
     pip install mesa
-    
     
    </li>
    <li>Estructura del Proyecto: Organizar el proyecto en directorios y archivos adecuados, incluyendo scripts para los modelos, agentes y visualización.</li>
   </ul>
   <li>Definición de Agentes y Modelos</li>
+  <ul>
+   <li>Creación de la Clase de Agentes:</li>
+   
+   ```
+class Pokemon(Agent):
+    def __init__(self, unique_id, model, tipo, name):
+        super().__init__(unique_id, model)
+        self.tipo = tipo
+        self.name = name
+        self.active = True
+
+    def step(self):
+        if not self.active:
+            return
+        if self.model.chasing_mode:
+            self.chase()
+        else:
+            self.move()
+        self.fight()
+
+   ```
+  
+  </ul>
   <li>Implementación de Métodos de Comportamiento</li>
   <li>Configuración del Entorno (Modelo)</li>
   <li>Visualización y Monitorización</li>
