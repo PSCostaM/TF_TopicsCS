@@ -117,7 +117,70 @@ class Pokemon(Agent):
   </ul>
   </ul>
   <li>Configuración del Entorno (Modelo)</li>
+  <ul>
+   <li>Creación del Modelo del Mundo:</li>
+   
+   ```
+class PokemonWorld(Model):
+    def __init__(self, N):
+        self.num_pokemons = N
+        self.grid = MultiGrid(50, 50, False)
+        self.schedule = RandomActivation(self)
+        self.running = True
+        self.chasing_mode = False
+        self.winning_pokemon = None
+        types = list(type_advantages.keys())
+
+        for i in range(self.num_pokemons):
+            tipo = random.choice(types)
+            name = f"Pokemon_{i+1}"
+            pokemon = Pokemon(i, self, tipo, name)
+            self.schedule.add(pokemon)
+            x = self.random.randrange(self.grid.width)
+            y = self.random.randrange(self.grid.height)
+            self.grid.place_agent(pokemon, (x, y))
+   ```
+
+   <li>Ejecución del Modelo: Implementar el método step para avanzar la simulación.</li>
+
+   ```
+def step(self):
+    self.schedule.step()
+    if self.check_winner():
+        self.running = False
+   ```
+  </ul>
   <li>Visualización y Monitorización</li>
+  <ul>
+   <li>Definición de Portrayals para los Agentes:</li>
+
+```
+def agent_portrayal(agent):
+    portrayal = {"Shape": "circle", "Filled": "true", "r": 0.5}
+    if agent.tipo == 'agua':
+        portrayal["Color"] = "blue"
+    elif agent.tipo == 'fuego':
+        portrayal["Color"] = "red"
+    elif agent.tipo == 'eléctrico':
+        portrayal["Color"] = "yellow"
+    elif agent.tipo == 'planta':
+        portrayal["Color"] = "green"
+    portrayal["Layer"] = 0
+    return portrayal
+```
+
+   <li>Creación de la Interfaz de Visualización:</li>
+
+```
+grid = CanvasGrid(agent_portrayal, 50, 50, 1000, 1000)
+chasing_mode_indicator = ChasingModeIndicator()
+winning_pokemon_indicator = WinningPokemonIndicator()
+server = ModularServer(PokemonWorld, [grid, chasing_mode_indicator, winning_pokemon_indicator], "Pokemon World", {"N": 2500})
+server.port = 8521
+server.launch()
+```
+
+  </ul>
   <li>Pruebas y Ajustes</li>
   <li>Documentación y Presentación</li>
  </ol>
