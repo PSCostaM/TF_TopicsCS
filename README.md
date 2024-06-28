@@ -83,9 +83,9 @@ Mesa es una librería de Python diseñada específicamente para crear y gestiona
   <ul>
    <li>Instalación de Mesa: Instalar la librería Mesa junto con otras dependencias necesarias.
    
-    ```
+   
     pip install mesa
-    ```
+    
     
    </li>
    <li>Estructura del Proyecto: Organizar el proyecto en directorios y archivos adecuados, incluyendo scripts para los modelos, agentes y visualización.</li>
